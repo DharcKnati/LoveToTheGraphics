@@ -1,1 +1,0 @@
--- buttons on top, left, and right
