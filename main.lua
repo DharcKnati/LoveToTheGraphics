@@ -4,6 +4,8 @@ gm = love
 require("../src")
 
 function gm:load()
+  win = {}
+  win.width, win.height = gm.graphics.getWidth(), gm.graphics.getHeight()
   scene_mngr("menu01")
 end 
 
