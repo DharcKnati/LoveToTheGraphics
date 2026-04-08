@@ -10,6 +10,8 @@ function gm:load()
   app_prop.version = "v1,56"
   gm.graphics.setTitle("Gear " .. app_prop.version)
   gm.graphics.setMode((win.width), (win.height))
+
+  cam = gamera.new((win.width/2), (win.height/2), 512, 240)
   scene_mngr("menu01")
 end 
 
