@@ -5,7 +5,11 @@ require("../src")
 
 function gm:load()
   win = {}
-  win.width, win.height = gm.graphics.getWidth(), gm.graphics.getHeight()
+  win.width, win.height = 1024, 480
+  app_prop = {}
+  app_prop.version = "v1,56"
+  gm.graphics.setTitle("Gear " .. app_prop.version)
+  gm.graphics.setMode((win.width), (win.height))
   scene_mngr("menu01")
 end 
 
