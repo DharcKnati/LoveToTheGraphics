@@ -1,6 +1,10 @@
 -- directorys
 dir = "../"
-dir_Main_Menu = "Interface/Code/"
+dir_Libs = "Librarys/"
+dir_Code = "Interface/Code/"
+
+-- Lib requires
+cam = require(dir_Libs .. "gamera")
 
 -- requires
-require(dir .. dir_Main_Menu .. "Create_Buttons")
+require(dir_Code .. "Create_Buttons")
